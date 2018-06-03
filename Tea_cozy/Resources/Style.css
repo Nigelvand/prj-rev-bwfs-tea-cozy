@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+    font-size: 22px;
+    color: seashell;
+    opacity: 0.9;
+    text-align: center;
+}
+
+.logo{
+    float: left;
+}
+
+ul{
+    list-style: none;
+    float: right;
+    width: 500px;
+    margin-top: 15px;
+
+}
+
+li{
+    display: inline-block;
+    margin-left: 20px;
+
+}
+
+nav a{
+    color: seashell;
+}
+
+nav{
+    height: 70px;
+    padding: 20px;
+    position: fixed;
+    background-color: black;
+    width: 100%;
+    z-index: 20;
+}
+
+.Top_picture{
+    background-image: url("../Images/img-mission-background.jpg");
+    height: 700px;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.Mission{
+    background-color: black;
+    position: absolute;
+    top: 400px;
+    width: 1200px;
+
+}
+
+.Month{
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-flow:row wrap;
+    justify-content: center;
+
+}
+
+.Month img{
+    width: 300px;
+    height: 200px;
+    margin: 10px 10px;
+}
+
+.locations{
+    background-image: url("../Images/img-locations-background.jpg");
+    height: 500px;
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-flow:row wrap;
+    justify-content: center;
+    background-size: cover;
+    margin-top: 80px;
+}
+
+.locations h1{
+  clear: none;
+  position: absolute;
+}
+
+.location1{
+    background-color: black;
+    width: 300px;
+    max-height: 260px;
+}
+.location2{
+    background-color: black;
+    width: 300px;
+    max-height: 260px;
+
+}
+.location3{
+    background-color: black;
+    width: 300px;
+    max-height: 260px;
+}
+
+.location{
+    line-height: 60px;
+    margin: auto auto;
+}
+
+footer p{
+    float: left;
+    margin-top: 70px;
+    margin-left: 20px;
+}
+
+.info {
+    line-height: 60px;
+}
+
+.Contact{
+    height: 200px;
+}
+
+.tea{
+    margin-top: 80px;
+}
